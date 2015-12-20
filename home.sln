@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AD2A7FB1-5BD4-4D35-A347-4455F25C424F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D93A460-2CA4-428A-A0D6-8C478AB8C220}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "home", "src\home\home.xproj", "{AA347308-0B7D-4B6C-B6FD-036FC17EC88D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{E888F52C-4564-4922-BFB9-333A495D9CBB}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\run_kestrel.ps1 = scripts\run_kestrel.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA347308-0B7D-4B6C-B6FD-036FC17EC88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA347308-0B7D-4B6C-B6FD-036FC17EC88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA347308-0B7D-4B6C-B6FD-036FC17EC88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA347308-0B7D-4B6C-B6FD-036FC17EC88D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA347308-0B7D-4B6C-B6FD-036FC17EC88D} = {AD2A7FB1-5BD4-4D35-A347-4455F25C424F}
+	EndGlobalSection
+EndGlobal
