@@ -15,7 +15,7 @@ namespace home
 
         public void Configure(IApplicationBuilder app)
         {
-	        app.UseWelcomePage();
+	        app.UseMvcWithDefaultRoute();
         }
 
         // Entry point for the application.

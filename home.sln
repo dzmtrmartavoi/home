@@ -14,7 +14,7 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "home", "src\home\home.xproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{E888F52C-4564-4922-BFB9-333A495D9CBB}"
 	ProjectSection(SolutionItems) = preProject
-		scripts\run_kestrel.ps1 = scripts\run_kestrel.ps1
+		scripts\run_clr_x64_kestrel.ps1 = scripts\run_clr_x64_kestrel.ps1
 	EndProjectSection
 EndProject
 Global
