@@ -1,7 +1,3 @@
-#run home using kestrel
-$dnx = Join-Path $env:USERPROFILE .dnx\runtimes\dnx-clr-win-x64.1.0.0-rc1-update1\bin\dnx.exe
-$projRoot = Join-Path $PSScriptRoot ..\src\home
-
-Push-Location $projRoot
-Start-Process $dnx "kestrel" -Verb runas
-Pop-Location
+dnvm install latest -r clr -arch x64
+$proj = Join-Path $PSScriptRoot ..\src\home\project.json
+Start-Process dnx -ArgumentList --project, "`"$proj`"", kestrel -Verb runas 
